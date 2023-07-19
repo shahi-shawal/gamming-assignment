@@ -80,14 +80,12 @@ nav li a{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     gap: 12px;
+    background: url(../images/group14.png);
+    background-position:left;
+    background-size:580px 700px;
+    background-repeat: no-repeat;
 }
 .banner-text-item {
-    /* background-image: url(../images/group14.png),linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
-width: 901px;
-height: 700px; */
-    background: url(../images/group14.png);
-    background-size:100%;
-    margin:100px 20px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -100,7 +98,7 @@ h1.banner-heading {
 } 
 h1.banner-text-goat {
     text-align: center;
-    font-size: 8rem;
+    font-size: 7rem;
     font-weight: 800;
 }
 
@@ -318,8 +316,38 @@ p.footer-copy {
     }
     .banner{
         flex-direction: column-reverse;
+        background: none;
     }
-    /* .banner-img{
-        height: 130px;
-    } */
+    .banner-img img {
+        max-width: 100%;
+        height: auto;
+    }
+    .banner-text-item {
+        align-items: center;
+    }
+    .online-game-poster {
+        flex-direction: column;
+    }
+    .play-instantly-section{
+        flex-direction: column;
+    }
+    .play-text{
+        margin: 0;
+        text-align: center;
+    }
+    .button-section{
+        flex-direction: column;
+        padding: 0;
+    }
+    .logo-footer {
+        flex-direction: column;
+        padding: 0;
+        margin-left: 0;
+    }
+    .footer-list > ul,
+    .footer-list-2 > ul{
+           flex-direction: column;
+    }
+
+
 }
