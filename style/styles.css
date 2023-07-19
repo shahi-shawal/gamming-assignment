@@ -174,6 +174,135 @@ button.btn-secondary {
     font-weight: 500;
 }
 
+/* play style  */
+.play-heading{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.play-pera{
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.play-instantly-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 121px;
+    gap: 30px;
+}
+.play-text {
+    margin-left: 195px;
+    margin-bottom: 212px;
+}
+
+.img-rec {
+    position: relative;
+    /* margin-bottom: 61px; */
+    bottom: 293px;
+    right: 34px;
+}
+
+.button-section {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 22px;
+    justify-content: center;
+    padding: 20px;
+    margin-top: -180px;
+}
+    .btn-box {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        border-radius: 50px;
+        background: #FFF;
+        border: 1px solid #FFF;
+        /* padding: -4px 24px; */
+    }
+.btn-box:hover{
+    border:  1px solid #FF42A5;
+}
+    .btn-img {
+        width: 67px;
+        height: 61px;
+    }
+    .btn-text {
+        color: #0B0223;
+        font-size: 1.1rem;
+        font-weight: 600;
+        padding-right: 18px;
+    }
+.btn-box:hover .btn-text:hover{
+    color: #FF42A5;
+}
+
+/* footer style  */
+.footer {
+    margin-top: 20px;
+    padding-top: 120px;
+    text-align: center;
+    background: #0B0223;
+}
+.logo-footer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    /* text-align: center; */
+    margin-left: 538px;
+    padding-top: 17px;
+}
+.footer-list {
+    padding-top: 33px;
+}
+.nav-title-footer {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+    margin-top: 26px;
+    padding-top: 15px;
+}
+
+.footer-list > ul {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    list-style: none;
+    display: flex;
+    gap: 54px;
+    justify-content: center;
+}
+.footer-list-2 > ul {
+    color: rgba(255, 255, 255, 0.60);
+    list-style: none;
+    display: flex;
+    gap: 19px;
+    justify-content: center;
+    font-size: 1rem;
+    /* margin-bottom: 20px; */
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+.footer-list li a{
+    color: #FFF;
+    text-decoration: none;
+}
+.footer-list-2 li a{
+    color: #FFF;
+    text-decoration: none;
+}
+p.footer-copy {
+    padding-bottom: 46px;
+    color: rgba(255, 255, 255, 0.60);
+}
 
 /* respnsive css */
 /* Moble style  */
