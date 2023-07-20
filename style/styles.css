@@ -237,13 +237,17 @@ button.btn-secondary {
 
 .button-section {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 22px;
+    display: grid;
+    grid-template-columns: 220px 237px 257px 230px 268px;
+    gap: 20px;
     justify-content: center;
     padding: 20px;
     margin-top: -180px;
+}
+.button-section .item-1 {
+    display: grid;
+    grid-template-columns: 264px 272px 295px 258px;
+    margin-left: 112px!important;
 }
     .btn-box {
         display: flex;
@@ -369,9 +373,24 @@ p.footer-copy {
         margin: 0;
         text-align: center;
     }
+    .play-img img {
+        max-width: 100%;
+        height: auto;
+    }
+
     .button-section{
-        flex-direction: column;
-        padding: 0;
+        grid-template-columns: 230px;
+       /* grid-template-columns: repeat(2,50px); */
+       justify-content: center;
+        padding-top:10px;
+    }
+    .button-section .item-1{
+        grid-template-columns: 210px;
+        /* justify-content: center;
+        padding: 0; */
+        align-items: center;
+        margin-left: 0!important;
+        gap: 20px;
     }
     .logo-footer {
         flex-direction: column;
